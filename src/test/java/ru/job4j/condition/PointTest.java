@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMin20to30then1() {
+    public void whenMin20to30then5() {
         double expected = 5;
         int x1 = -2;
         int y1 = 0;
@@ -39,7 +39,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMin30to30then1() {
+    public void whenMin30to30then6() {
         double expected = 6;
         int x1 = -3;
         int y1 = 0;
