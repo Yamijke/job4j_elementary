@@ -38,6 +38,5 @@ public class LogicNot {
         System.out.println(notEvenAndPositive);
         boolean evenOrNotPositive = LogicNot.evenOrNotPositive(9);
         System.out.println(evenOrNotPositive);
-        System.out.println("change");
     }
 }
