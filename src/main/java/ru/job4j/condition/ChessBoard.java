@@ -22,3 +22,4 @@ public class ChessBoard {
         System.out.println(result);
     }
 }
+
