@@ -2,13 +2,7 @@ package ru.job4j.array;
 
 public class EqLast {
     public static boolean check(int[] left, int[] right) {
-        boolean result = true;
-        int a = left[left.length - 1];
-        int b = right[right.length - 1];
-        if (a != b) {
-            result = false;
-        }
-        return result;
+        return left[left.length - 1] == right[right.length - 1];
     }
 
     public static void main(String[] args) {
