@@ -14,4 +14,3 @@ public class Sequence {
         array[2][2] = 9;
     }
 }
-
