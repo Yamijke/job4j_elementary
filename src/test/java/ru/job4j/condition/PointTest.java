@@ -42,7 +42,7 @@ public class PointTest {
     }
 
     @Test
-    public void when102to305then() {
+    public void when102to305then3dot606() {
         double expected = 3.606;
         Point a = new Point(1, 0, 2);
         Point b = new Point(3, 0, 5);
@@ -51,7 +51,7 @@ public class PointTest {
     }
 
     @Test
-    public void when534to845then() {
+    public void when534to845then3dot742() {
         double expected = 3.742;
         Point a = new Point(5, 3, 4);
         Point b = new Point(8, 4, 2);
