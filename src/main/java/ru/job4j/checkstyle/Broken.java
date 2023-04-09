@@ -5,21 +5,22 @@ public class Broken {
 
     private int sizeOfEmpty = 10;
 
-    public String surname;
-    public String name;
+    private String surname;
+
+    private String name;
 
     public Broken() {
     }
 
-    void echo() {
+    public void echo() {
     }
 
-    void media(Object obj) {
+    public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         }
     }
 
-    void method(int a, int b, int c, int d, int e, int f, int g, int h) {
+    public void method(int a, int b, int c, int d, int e, int f, int g) {
     }
 }
